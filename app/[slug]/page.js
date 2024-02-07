@@ -26,9 +26,9 @@ export default async function PostPage({ params }) {
   }
   const { content, data } = matter(file);
   const discussUrl = `https://x.com/search?q=${encodeURIComponent(
-    `https://overreacted.io/${params.slug}/`,
+    `https://stoilsky.com/${params.slug}/`,
   )}`;
-  const editUrl = `https://github.com/gaearon/overreacted.io/edit/main/public/${encodeURIComponent(
+  const editUrl = `https://github.com/stoich/stoilsky.com/edit/main/public/${encodeURIComponent(
     params.slug,
   )}/index.md`;
   return (
@@ -96,7 +96,7 @@ export async function generateMetadata({ params }) {
   const file = await readFile("./public/" + params.slug + "/index.md", "utf8");
   let { data } = matter(file);
   return {
-    title: data.title + " — overreacted",
+    title: data.title + " — Stoilsky",
     description: data.spoiler,
   };
 }

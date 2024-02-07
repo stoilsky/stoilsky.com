@@ -5,12 +5,12 @@ import Color from "colorjs.io";
 import { sans } from "./fonts";
 
 export const metadata = {
-  title: "overreacted — A blog by Dan Abramov",
-  description: "A personal blog by Dan Abramov",
+  title: "Stoilsky: A JavaScript blog",
+  description: "A personal blog by Stoil Stoychev",
   alternates: {
     types: {
-      "application/atom+xml": "https://overreacted.io/atom.xml",
-      "application/rss+xml": "https://overreacted.io/rss.xml",
+      "application/atom+xml": "https://stoilsky.com/atom.xml",
+      "application/rss+xml": "https://stoilsky.com/rss.xml",
     },
   },
 };
