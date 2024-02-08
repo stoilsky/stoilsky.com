@@ -9,7 +9,7 @@ export default async function PostPage({ params }) {
             <br/><br/>
             Mostly on the Frontend side of things, but I enjoy dabbling elsewhere.
             <br/><br/>
-            JavaScript, TypeScript, React, State Managers, Responsive Design: these are some of the things I know well.
+            JavaScript, TypeScript, React, State Managers, Responsive Design. These are some of the things I know well.
         </div>
     );
 }
