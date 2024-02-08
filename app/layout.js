@@ -3,8 +3,9 @@ import HomeLink from "./HomeLink";
 import AutoRefresh from "./AutoRefresh";
 import {serif} from "./fonts";
 import "./global.css";
+import Footer from "./Footer";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children}) {
   return (
     <AutoRefresh>
       <html lang="en" className={serif.className}>
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
       <header className="mb-14 flex flex-row place-content-between">
         <HomeLink/>
         <span className="relative top-[4px] italic">
-              <Link href="/about" target="_blank">
+              <Link href="/about">
                   Author{" "}
                 <img
                     alt="Stoil Stoychev"
@@ -23,14 +24,7 @@ export default function RootLayout({ children }) {
             </span>
       </header>
       <main>{children}</main>
-      <div className={"mt-10 flex flex-row place-content-center"}>
-        <span className={"text-xs font-light font-sans"}>
-            © Stoilsky {new Date().getFullYear()} | Fork of{" "}
-            <Link className={"underline"} href="https://github.com/gaearon/overreacted.io" target="_blank">
-                overreacted.io
-            </Link>
-        </span>
-      </div>
+      <Footer/>
       </body>
       </html>
     </AutoRefresh>
