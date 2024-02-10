@@ -1,11 +1,32 @@
+'use client'
 import Link from "./Link";
 import HomeLink from "./HomeLink";
 import AutoRefresh from "./AutoRefresh";
 import {serif} from "./fonts";
 import "./global.css";
 import Footer from "./Footer";
+import {useEffect} from "react";
+import {usePathname} from 'next/navigation';
+import {create} from 'ackee-tracker';
+
+let instance;
 
 export default function RootLayout({ children}) {
+    const path = usePathname();
+
+    useEffect(() => {
+        instance = create('https://analytics.stoilsky.com', {
+            ignoreLocalhost: false,
+        })
+    }, []);
+
+    useEffect(() => {
+        instance.record('hd11f820-68a1-11e6-8047-79c0c2d9bce0', {
+            siteLocation: window.location.href,
+            siteReferrer: document.referrer
+        })
+    }, [path]);
+
   return (
     <AutoRefresh>
       <html lang="en" className={serif.className}>
