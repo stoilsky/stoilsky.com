@@ -11,17 +11,20 @@ import {create} from 'ackee-tracker';
 
 let instance;
 
+// This domain id comes from our Netlify-deployed Ackee instance (analytics tool)
+const STOILSKY_DOT_COM_ANALYTICS_DOMAIN = '2a97e286-d2ca-4755-afb6-1addeac283e8';
+
 export default function RootLayout({ children}) {
     const path = usePathname();
 
     useEffect(() => {
         instance = create('https://analytics.stoilsky.com', {
-            ignoreLocalhost: false,
+            ignoreLocalhost: true,
         })
     }, []);
 
     useEffect(() => {
-        instance.record('hd11f820-68a1-11e6-8047-79c0c2d9bce0', {
+        instance.record(STOILSKY_DOT_COM_ANALYTICS_DOMAIN, {
             siteLocation: window.location.href,
             siteReferrer: document.referrer
         })
