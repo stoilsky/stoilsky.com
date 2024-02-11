@@ -19,6 +19,7 @@ export default function RootLayout({ children}) {
 
     useEffect(() => {
         instance = create('https://analytics.stoilsky.com', {
+            detailed: true,
             ignoreLocalhost: true,
         })
     }, []);
