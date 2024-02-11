@@ -24,10 +24,7 @@ export default function RootLayout({ children}) {
     }, []);
 
     useEffect(() => {
-        instance.record(STOILSKY_DOT_COM_ANALYTICS_DOMAIN, {
-            siteLocation: window.location.href,
-            siteReferrer: document.referrer
-        })
+        instance.record(STOILSKY_DOT_COM_ANALYTICS_DOMAIN)
     }, [path]);
 
   return (
