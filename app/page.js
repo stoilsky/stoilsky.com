@@ -21,7 +21,7 @@ export async function getPosts() {
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name);
   const fileContents = await Promise.all(
-    dirs.map((dir) => readFile("./public/" + dir + "/index.md", "utf8")),
+    dirs.map((dir) => readFile("./public/" + dir + "/index.mdx", "utf8")),
   );
   const posts = dirs.map((slug, i) => {
     const fileContent = fileContents[i];
