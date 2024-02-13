@@ -39,7 +39,7 @@ export default function RootLayout({ children}) {
                   Author{" "}
                 <img
                     alt="Stoil Stoychev"
-                    src="https://github.com/stoich.png"
+                    src="https://github.com/stoilsky.png"
                     className="relative -top-1 mx-1 inline h-8 w-8 rounded-full"
                 />
               </Link>
