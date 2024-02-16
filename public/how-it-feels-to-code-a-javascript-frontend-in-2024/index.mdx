@@ -1,0 +1,282 @@
+---
+title: "How it feels to enter the React Ecosystem in 2024"
+date: "2024-02-16"
+spoiler: "In 2024 the Frontend runs on the Backend."
+---
+
+export const Speech = ({ children }) => <>
+    <div style={{
+        color: `#ADD8E6`,
+        fontWeight: `bold`,
+    }}>- {children}</div>
+    <br />
+</>
+
+### Foreword
+
+Starting a Frontend Project in React this year? Fun times are ahead of you! The following, fictional
+conversation should help get you into the spirit.
+
+(obviously this is a complete ripoff... ahem, "homage" to:
+[How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f))
+
+### A conversation
+
+Hey, my boss said you're the guy to talk to about building a state-of-the-art Web app. 
+
+<Speech>I'm that guy, yes. </Speech>
+
+Great, thanks! This shouldn't take long. All I need is to display a list of items from our API on
+a web page. We'll also need CRUD: the user should be able to add new items, and edit or delete existing ones.
+
+<Speech>That's easy!</Speech>
+
+I thought so! I last touched Frontend 8 years ago. It was dynamic then - new frameworks and libraries every week!
+
+Backbone, Ember, Angular. And React was the cool new kid on the block. I can't imagine how much better things are now!
+What do you use in 2024?
+
+<Speech>React</Speech>
+
+Still? Well, I remember React was great because it was so unopinionated, it did only one thing well!
+
+<Speech>Exactly.</Speech>
+
+OK, so I'll just create a new JavaScript project and just include React in there...
+
+<Speech>No, you need to use a framework.</Speech>
+
+I thought React is a framework?
+
+<Speech>It's a library. You need a framework to handle bundling and all that other stuff. </Speech>
+
+OK, so maybe Create React App?
+
+<Speech>Yes, but no one uses that anymore.</Speech>
+
+Ah yes, now I remember Create React App was really hard to customize - it abstracts away the configuration.
+The frameworks you have now must be really flexible!
+
+<Speech>They still abstract away everything. They're a bit faster but you won't know the difference on a small project.</Speech>
+
+So really it's the same thing...
+
+OK, I'll just go with this "Vite" Framework I keep hearing about.
+
+<Speech>Vite is not a Framework.</Speech>
+
+What is it?
+
+<Speech>It's a bundler.</Speech>
+
+You said bundling is why I need a framework.
+
+<Speech>I said "bundling and all that other stuff."</Speech>
+
+What other stuff?
+
+<Speech>SRR for example.</Speech>
+
+What's SSR?
+
+<Speech>Server-side rendering. Your HTML is built on the server and delivered on the initial render. It's important for SEO and performance.</Speech>
+
+I don't care about SEO, and performance. It's a tiny internal app.
+
+<Speech>This stuff is important. You'll end up implementing it anyway. Be smart and use a framework that has it.</Speech>
+
+Something about the "server" bit in "server-side rendering" bugs me. I thought we were building a frontend app.
+
+<Speech>Absolutely we're building a frontend app.</Speech>
+
+But it needs to run on a server?
+
+<Speech>Hey, what app doesn't run on a server, amigo?</Speech>
+
+The kind that's a single bundle served from a CDN and runs in the browser?
+
+<Speech>(hesitates) This has server-side rendering.</Speech>
+
+What about if I want to make it Offline-First?
+
+<Speech>Not important. Don't worry about it.</Speech>
+
+But if I'm "rendering on the server" it sounds like I'll just be using React as a templating engine? Like EJS in Express?
+
+<Speech>Yes, but then you hydrate the app on the client.</Speech>
+
+Hydrate?
+
+<Speech>Yes. It means to “attach” React to existing HTML that was already rendered by React in a server environment.</Speech>
+
+Sounds complicated.
+
+<Speech>Yes, but you won't have to worry about it with React Server Components.</Speech>
+
+And those are?
+
+<Speech>What does it sound like? It's React components that only run on the server.</Speech>
+
+You mean the server-side rendering you told me about just now?
+
+<Speech>Yes. But not really. Technically it's all server-side rendering. But non-Server Components run on the client too. Unless you're just using the React DOM server API to render HTML. Then it's a like a templating engine.</Speech>
+
+But React Server Components are different?
+
+<Speech>Yes, you can use them to fetch data.</Speech>
+
+But any React Component can fetch data.
+
+<Speech>Yes, but these only run on the server.</Speech>
+
+You can run the React Dom server API on the server.
+
+<Speech>But that's not a component. It just converts JSX to HTML. It doesn't run anything. Server Components can run code and fetch your data.</Speech>
+
+So they can execute side effects just like a client-side React component?
+
+<Speech>They don't have a "useEffect" hook, if that's what you mean.</Speech>
+
+useEffect hook?
+
+<Speech>Yes, React switched from class-based components to "functional" components. Your write your component like a function
+that return JSX and you pass your side effects (like data fetching) as callbacks to this useEffect function inside.</Speech>
+
+So "useEffect" is like the "componentDidMount" from back in the day?
+
+<Speech>Yes, but you can "subscribe" to changes in state and props so it runs when they change.</Speech>
+
+But the callback itself is changing the state? Sounds like Infinite Loop City...
+
+<Speech>I get my Post forwarded to Infinite Loop City.</Speech>
+
+OK. Let's park Infinite Loop City for now. Back to the frameworks: if these "Server Components" don't have "useEffect"
+where does the logic go?
+
+<Speech>Right in the component body:</Speech>
+```js
+export async function ServerComponent() {
+    const items = await getItems()
+
+    return(
+        <>
+            {items.map((i, index) => {
+                <Item key={index} data={i} />
+            })}
+        </>
+    )
+}
+```
+
+Just some async logic right in the component body? And how does this run on the client?
+
+<Speech>It doesn't. It runs on the server. It's a Server Component. "Server" - get it? It's whole new paradigm, everything that can
+run on the server, runs on the server</Speech>
+
+So what runs on the client?
+
+<Speech>"Client Components". You mark them with 'use client'.</Speech>
+
+So React, the unopitionated Frontend Library now has a special designation for code that's supposed to run in the browser?
+
+<Speech>Yes. You can mix your Server Components with your Client Components. Just not in a single file.</Speech>
+
+What do you mean "not in a single file"? Never mind. Anything else I should know about using Server Component.
+
+<Speech>If you're going to be accessing libraries - they need to support Server Components.</Speech>
+
+Which ones support it?
+
+<Speech>[Here's](https://github.com/reactwg/server-components/discussions/6) a list I found for you.</Speech>
+
+That's like 5 libraries. What about the rest of them?
+
+<Speech>'use client'</Speech>
+
+And every one of the frameworks, one of which I absolutely need to use, runs on this Server Component paradigm?
+
+<Speech>No, just NextJS.</Speech>
+
+Oh. So I could just pick a different framework?
+
+<Speech>Yes, but the React team collaborates with NextJS. So it comes recommended. Then you deploy it on Vercel.</Speech>
+
+What's Vercel?
+
+<Speech>It's the company that maintains NextJS. They are a hosting service provider for web apps.</Speech>
+
+But NextJS is open-source?
+
+<Speech>It is. They just maintain is, is all.</Speech>
+
+And I can deploy the app I developed with their framework on their hosting service?
+
+<Speech>Yes.</Speech>
+
+But I don't have to? I could host it somewhere else too? Cloudflare Pages, Netlify? It's just a NodeJS app at the end of the day, right?
+
+<Speech>Netlify open-sources its own React Framework: Gatsby.</Speech>
+
+Maybe I'll use that instead?
+
+<Speech>No. Everyone's switching over from Gatsby to NextJS. Be smart. Make the choice everyone is making.</Speech>
+
+Will Netlify run NextJS or not?
+
+<Speech>Netlify will generally run NextJS but there might be missing features.</Speech>
+
+What about Cloudflare Pages?
+
+<Speech>On Cloudflare Pages you have to configure NextJs to run on Edge Runtime.</Speech>
+
+The Microsoft browser?
+
+<Speech>No, not the browser. The Edge Runtime is a NodeJS lite environment. It supports some Node apis. But not all.</Speech>
+
+Who came up with this Edge Runtime?
+
+<Speech>Vercel.</Speech>
+
+Right. Anyway so I just put
+```js
+{runtime: 'experimental-edge'}
+```
+somewhere in the settings and I can deploy on Cloudflare Pages?
+
+<Speech>Yeah, but expect missing features and errors. In fact, you're better off just deploying to Vercel. Be smart. Keep it simple.</Speech>
+
+Stop saying "be smart". Also, "simple" is not a word I would use to describe any of this.
+
+<Speech>No? Anyway, Vercel is great.</Speech>
+
+You sure seem to be pushing Vercel a lot.
+
+<Speech>Yeah? I hadn't noticed.</Speech>
+
+...and seems like they (Vercel) recently picked up $300 million in Venture Capital funding to "drive adoption"...
+
+<Speech>I'm not on the payroll, if that's what you mean. But the adoption seems pretty driven to me.</Speech>
+
+OK. I think I'm done here. I'll go build this in ASP .Net and host it in Azure. At least I know what I'm getting into.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
