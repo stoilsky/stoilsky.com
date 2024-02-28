@@ -4,14 +4,24 @@ date: "2024-02-26"
 spoiler: "A good Tester is worth their weight in gold."
 ---
 
-export const Speech = ({ children }) => <>
-    <div style={{
-        color: `#ADD8E6`,
-        fontWeight: `bold`,
-    }}>- {children}</div>
-    <br />
-</>
+export const CTA = () =>
+ <div
+    className="bg-blue-200 text-gray-800 pt-4 pb-6 px-6 rounded-lg flex flex-col items-center justify-center ">
+    <h2 className="font-bold text-lg text-center">Join Quality Assurance Jobs!</h2>
+    <div className="text-center pb-6">
+    <a className="text-black" href={`https://www.qajobs.co/`}>qajobs.co</a> is the first job board for Quality Assurance, SDET, and all other Test
+               Automation Engineer roles.
+    </div>
+    <a href="https://www.qajobs.co" style={{border: `none`}}>
+        <button
+            className="bg-yellow-500 text-gray-800 px-4 py-2 rounded hover:bg-yellow-600 font-bold">Visit
+            qajobs.co
+        </button>
+    </a>
+</div>
 
+<CTA/>
+<br/>
 ### Low entry barrier
 
 The software industry pays well. But it's hard to get started - you need to pick up lots of context. Coding
@@ -77,3 +87,7 @@ Realize that a good Quality Assurance Engineer or Software Engineer in Test
 is worth their weight in gold. Pay them accordingly.
 
 Treat them with the respect they deserve and they'll take care of your product.
+
+<CTA/>
+
+<br/>
