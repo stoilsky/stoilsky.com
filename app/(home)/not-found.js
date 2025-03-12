@@ -1,6 +1,5 @@
-import { sans } from "./fonts";
-import Link from "./Link";
-import "./[slug]/markdown.css";
+import {sans} from "../fonts";
+import "../(home)/[slug]/markdown.css";
 
 export default function NotFound() {
   return (

@@ -1,8 +1,8 @@
 import { readdir, readFile } from "fs/promises";
 import matter from "gray-matter";
-import Link from "./Link";
+import Link from "../Link"
 import Color from "colorjs.io";
-import { sans } from "./fonts";
+import { sans } from "../fonts";
 
 export const metadata = {
   title: "Stoilsky: A JavaScript blog",

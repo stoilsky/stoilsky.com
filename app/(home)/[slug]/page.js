@@ -1,13 +1,13 @@
 import { readdir, readFile } from "fs/promises";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import Link from "../Link";
-import { sans } from "../fonts";
+import Link from "../../Link";
+import { sans } from "../../fonts";
 import remarkSmartpants from "remark-smartypants";
 import rehypePrettyCode from "rehype-pretty-code";
-import { remarkMdxEvalCodeBlock } from "./mdx.js";
+import { remarkMdxEvalCodeBlock } from "../../(home)/[slug]/mdx.js";
 import overnight from "overnight/themes/Overnight-Slumber.json";
-import "./markdown.css";
+import "../../(home)/[slug]/markdown.css";
 
 overnight.colors["editor.background"] = "var(--code-bg)";
 

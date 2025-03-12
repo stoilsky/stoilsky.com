@@ -1,4 +1,4 @@
-import HomeLink from "../HomeLink";
+import HomeLink from "../../HomeLink";
 
 export default function Layout({ children }) {
   return (

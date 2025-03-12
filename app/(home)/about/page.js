@@ -1,4 +1,4 @@
-import {QAJobsCTA} from "../QAJobsCTA";
+import {QAJobsCTA} from "../../QAJobsCTA";
 
 export const metadata = {
     title: `Stoilsky: About`,

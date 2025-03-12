@@ -11,5 +11,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="overreacted.io" />
     <orderEntry type="module" module-name="my-blog" />
+    <orderEntry type="module" module-name="lune-dashboard" />
   </component>
 </module>

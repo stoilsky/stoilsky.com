@@ -1,10 +1,10 @@
 'use client'
-import Link from "./Link";
-import HomeLink from "./HomeLink";
-import AutoRefresh from "./AutoRefresh";
-import {serif} from "./fonts";
-import "./global.css";
-import Footer from "./Footer";
+import Link from "../Link";
+import HomeLink from "../HomeLink";
+import AutoRefresh from "../AutoRefresh";
+import {serif} from "../fonts";
+import "../global.css";
+import Footer from "../Footer";
 import {useEffect} from "react";
 import {usePathname} from 'next/navigation';
 import {create} from 'ackee-tracker';
