@@ -181,16 +181,13 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Co-Founder</p>
                                         <p className="text-gray-500 text-sm">Apil 2024 - Present (1 year 1 month)</p>
                                         <p className="mt-2">
-                                            Syncgrip is a bootstrapped SaaS we built together with a partner. It
-                                            synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
-                                            allowing you to avoid data-silos and have a single source of truth.
-                                            <br/><br/>
-                                            The tagline is "Manage your apps straight from Airtable"
-                                            <br/><br/>
-                                            Moving data between services in real-time is hard and
-                                            this project required complicated engineer along with marketing, sales and support
-                                            all of which we have been doing ourselves. It has been a crazy and rewarding
-                                            experience.
+                                            - bootstrapped SaaS we built together with a partner.<br/>
+                                            - synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
+                                            allowing you to avoid data-silos and have a single source of truth.<br/>
+                                            - The tagline is "Manage your apps straight from Airtable"<br/>
+                                            - complicated engineer along with marketing, sales and support<br/>
+                                            all of which we have been doing ourselves. <br/>
+                                            - a crazy and rewarding experience.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -213,18 +210,17 @@ export default function ResumePage() {
                                         <p className="text-gray-500 text-sm">May 2021 - February 2024 (2 years 10 months)</p>
                                         <p className="text-gray-500 text-sm">London, United Kingdom</p>
                                         <p className="mt-2">
-                                            Lune.co provides businesses with tools and an API to measure, manage, and offset their carbon footprint.
+                                            - Lune.co provides businesses with tools and an API to measure, manage, and offset their carbon footprint.
                                             <br/>
+                                            - joined as a Founding Engineer on a mission to build out their client-side Dashboard and Marketing Website.
                                             <br/>
-                                            I joined as a Founding Engineer on a mission to build out their client-side Dashboard and Marketing Website.
-                                            <br/><br/>
-                                            In my first year, I created the initial versions of the Website and the Dashboard from
-                                            scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively. Eventually I also
-                                            contributed on the backend, working with Node.js, Express and PostgreSQL.
-                                        <br/><br/>
-                                            The website was eventually migrated to Next.js and the Dashboard to Vite.
-                                            <br/><br/>
-                                            I was involved in hiring, helping to grow the team and ramp up new hires.
+                                            - created the initial versions of the Website and the Dashboard from
+                                            scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively.  <br/>
+                                            - contributed on the backend, working with Node.js, Express and PostgreSQL.
+                                        <br/>
+                                            - Migrated Marketing Website from Gatsby to Next.js
+                                            <br/>
+                                            - was involved in hiring, helping to grow the team and ramp up new hires.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -249,18 +245,19 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Front-End Software Engineer</p>
                                         <p className="text-gray-500 text-sm">January 2017 - May 2021 (4 years 5 months)</p>
                                         <p className="text-gray-500 text-sm">London, England, United Kingdom</p>
-                                        <p className="mt-2">I joined Tray.io in London as employee #12.
-                                            <br/><br/>
-                                            Originally hired
-                                        as a Test Engineer, I quickly shifted gears into a Frontend Engineer position.
-                                        Tray.io (now Tray.ai) is a low-code automation platform (iPaaS) with a React-based
-                                        frontend and a Scala backend. Think Zapier but more for the Enterprise.
-                                            <br/><br/>
-                                            I worked on many different parts of their client-side
+                                        <p className="mt-2">- joined Tray.io in London as employee #12.
+                                            <br/>
+                                             - originally hired
+                                        as a Test Engineer, shifted gears into a Frontend Engineer position.
+                                            <br/>
+                                        - Tray.io (now Tray.ai) is a low-code automation platform (iPaaS) with a React-based
+                                        frontend and a Scala backend. (Think Zapier but more for the Enterprise.)
+                                            <br/>
+                                            - worked on many different parts of their client-side
                                         dashboard including to flesh out Enterprise features like User Roles, Permissions etc
                                         as well as the Marketing Website.
-                                            <br/><br/>
-                                            I was also involved with the hiring process, interviewing and mentoring junior engineers.
+                                            <br/>
+                                             - involved with the hiring process, interviewing and mentoring junior engineers.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -281,10 +278,11 @@ export default function ResumePage() {
                                         <p className="text-gray-500 text-sm">May 2015 - January 2017 (1 year 9 months)</p>
                                         <p className="text-gray-500 text-sm">Sofia, Bulgaria</p>
                                         <p className="mt-2">
-                                            A stint as a freelance consultant for companies looking to improve
+                                            - freelance consultant for companies looking to improve
                                             their test automation strategy and bring automation to a previously
-                                            fully-manual testing processes. I was an official partner to my first employer, Telerik (now Progress),
-                                            and worked with companies in the UK and US, mostly on integrating Telerik Test Studio (an automation tool)
+                                            fully-manual testing processes. <br/>
+                                            - an official partner to my first employer, Telerik (now Progress)  <br/>
+                                            - worked with companies in the UK and US, mostly on integrating Telerik Test Studio (an automation tool)
                                             into existing QA teams.
                                         </p>
                                         <div className="mt-3">
@@ -302,12 +300,14 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Software Development Engineer In Test</p>
                                         <p className="text-gray-500 text-sm">May 2014 - July 2015 (1 year 3 months)</p>
                                         <p className="text-gray-500 text-sm">Sofia</p>
-                                        <p className="mt-2">  This was my first purely technical role. <br/><br/>
-                                            DynamicAction is an
-                                            AngularJS/NodeJS-based business intelligence web app. I worked on
+                                        <p className="mt-2"> - first purely technical role. <br/>
+                                            - DynamicAction is an
+                                            AngularJS/NodeJS-based business intelligence web app. <br/>
+                                            - worked on
                                             designing and expanding the extensive, Selenium-based automation suite
-                                            that allowed the devs to make changes with confidence. I
-                                            worked assure each DynamicAction release lived up to the company's quality
+                                            that allowed the devs to make changes with confidence.
+                                            <br/>
+                                            - worked assure each DynamicAction release lived up to the company's quality
                                             standards.
                                             </p>
                                         <div className="mt-3">
@@ -328,14 +328,17 @@ export default function ResumePage() {
                                     <p className="text-gray-500 text-sm">Jan 2011 - March 2014 (3 years 7 months)</p>
                                         <p className="text-gray-600 text-sm">3 years 5 months</p>
                                         <p className="mt-2">
-                                            As a Sales Engineer I had a working knowledge of the
-                                            entire stack of products offered by my company Telerik. I analyzed and responded to
+                                            - Sales Engineer had a working knowledge of the
+                                            entire stack of products offered by my company Telerik.
+                                            <br/>
+                                            - analyzed and responded to
                                             technical queries by customers and prepared sample projects to serve as
                                             POC for prospective/existing customers.
-                                            <br/><br/>
-                                            I worked closely with the sales team identify
-                                            requirements and how they can be addressed. I
-                                            technical training sessions for the sales team and customers.
+                                            <br/>
+                                            - worked closely with the sales team identify
+                                            requirements and how they can be addressed.
+                                            <br/>
+                                            - led technical training sessions for the sales team and customers.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
