@@ -1,4 +1,4 @@
-import { getPosts, metadata } from "app/(home)/page";
+import { getPosts, metadata } from "../(home)/page";
 import { generateFeed } from "../feed";
 
 export async function GET() {
