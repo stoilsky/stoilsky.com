@@ -57,7 +57,7 @@ export default function ResumePage() {
                                         <span className="ml-auto w-6 h-0.5 bg-gradient-to-r from-indigo-200 to-transparent"></span>
                                     </h2>
                                     <p className="text-gray-700 relative z-10">
-                                        Hi, I'm Stoil, a Software Engineer with broad experience across the entire development lifecycle, working with both startups and large enterprises.
+                                        A Software Engineer with broad experience across the entire development lifecycle, working with both startups and large enterprises.
                                     </p>
                                 </div>
 
@@ -181,13 +181,11 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Co-Founder</p>
                                         <p className="text-gray-500 text-sm">Apil 2024 - Present (1 year 1 month)</p>
                                         <p className="mt-2">
-                                            - bootstrapped SaaS we built together with a partner.<br/>
-                                            - synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
-                                            allowing you to avoid data-silos and have a single source of truth.<br/>
-                                            - The tagline is "Manage your apps straight from Airtable"<br/>
-                                            - complicated engineer along with marketing, sales and support<br/>
-                                            all of which we have been doing ourselves. <br/>
-                                            - a crazy and rewarding experience.
+                                            - Syncgrip is bootstrapped SaaS we built together with a partner <br/>
+                                            - synchronization of data between different SaaS tools like Airtable, Asana and Mailchimp,
+                                            allowing you to avoid data-silos and have a single source of truth<br/>
+                                            - complex engineering project to designing and build a distributed system capable of ingesting thousand of events in real time<br/>
+                                            - performed marketing, sales and support <br/>
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -210,17 +208,17 @@ export default function ResumePage() {
                                         <p className="text-gray-500 text-sm">May 2021 - February 2024 (2 years 10 months)</p>
                                         <p className="text-gray-500 text-sm">London, United Kingdom</p>
                                         <p className="mt-2">
-                                            - Lune.co provides businesses with tools and an API to measure, manage, and offset their carbon footprint.
+                                            - Lune.co provides businesses with tools and an API to measure, manage, and offset their carbon footprint
                                             <br/>
-                                            - joined as a Founding Engineer on a mission to build out their client-side Dashboard and Marketing Website.
+                                            - joined as a Founding Engineer on a mission to build out their client-side Dashboard and Marketing Website
                                             <br/>
                                             - created the initial versions of the Website and the Dashboard from
                                             scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively.  <br/>
-                                            - contributed on the backend, working with Node.js, Express and PostgreSQL.
+                                            - contributed on the backend, working with Node.js, Express and PostgreSQL
                                         <br/>
-                                            - Migrated Marketing Website from Gatsby to Next.js
+                                            - migrated Marketing Website from Gatsby to Next.js
                                             <br/>
-                                            - was involved in hiring, helping to grow the team and ramp up new hires.
+                                            - involved in hiring, helping to grow the team and ramp up new hires.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -245,16 +243,17 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Front-End Software Engineer</p>
                                         <p className="text-gray-500 text-sm">January 2017 - May 2021 (4 years 5 months)</p>
                                         <p className="text-gray-500 text-sm">London, England, United Kingdom</p>
-                                        <p className="mt-2">- joined Tray.io in London as employee #12.
+                                        <p className="mt-2">
+                                            - Tray.io (now Tray.ai) is a low-code automation platform (iPaaS) with a React-based
+                                            frontend and a Scala backend. (Think Zapier but more for the Enterprise.)
                                             <br/>
-                                             - originally hired
-                                        as a Test Engineer, shifted gears into a Frontend Engineer position.
+                                            - joined Tray.io in London as employee #12.
                                             <br/>
-                                        - Tray.io (now Tray.ai) is a low-code automation platform (iPaaS) with a React-based
-                                        frontend and a Scala backend. (Think Zapier but more for the Enterprise.)
+                                            - originally hired
+                                            as a Test Engineer, shifted gears into a Frontend Engineer position.
                                             <br/>
                                             - worked on many different parts of their client-side
-                                        dashboard including to flesh out Enterprise features like User Roles, Permissions etc
+                                        dashboard including to Enterprise features like User Roles, Permissions etc
                                         as well as the Marketing Website.
                                             <br/>
                                              - involved with the hiring process, interviewing and mentoring junior engineers.
@@ -300,14 +299,14 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Software Development Engineer In Test</p>
                                         <p className="text-gray-500 text-sm">May 2014 - July 2015 (1 year 3 months)</p>
                                         <p className="text-gray-500 text-sm">Sofia</p>
-                                        <p className="mt-2"> - first purely technical role. <br/>
+                                        <p className="mt-2">
                                             - DynamicAction is an
                                             AngularJS/NodeJS-based business intelligence web app. <br/>
                                             - worked on
                                             designing and expanding the extensive, Selenium-based automation suite
                                             that allowed the devs to make changes with confidence.
                                             <br/>
-                                            - worked assure each DynamicAction release lived up to the company's quality
+                                            - assure each DynamicAction release met the company's quality
                                             standards.
                                             </p>
                                         <div className="mt-3">
@@ -328,8 +327,11 @@ export default function ResumePage() {
                                     <p className="text-gray-500 text-sm">Jan 2011 - March 2014 (3 years 7 months)</p>
                                         <p className="text-gray-600 text-sm">3 years 5 months</p>
                                         <p className="mt-2">
-                                            - Sales Engineer had a working knowledge of the
-                                            entire stack of products offered by my company Telerik.
+                                            - Telerik (now Progress) offers software tools for web, mobile, desktop application development.
+                                            <br/>
+
+                                            - working knowledge of the
+                                            entire stack of products offered by Telerik.
                                             <br/>
                                             - analyzed and responded to
                                             technical queries by customers and prepared sample projects to serve as
