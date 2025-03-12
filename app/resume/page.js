@@ -33,7 +33,7 @@ export default function ResumePage() {
                                 {/* Profile Section */}
                                 <div className="flex flex-col items-center">
                                     <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0 shadow-md border-2 border-white mb-4 relative">
-                                        <div className="absolute inset-0 bg-gradient-to-r from-indigo-200 to-purple-200 opacity-30 z-10 mix-blend-overlay"></div>
+
                                         <Image
                                             src="/Stoil.jpg"
                                             alt="Stoil Stoychev"
