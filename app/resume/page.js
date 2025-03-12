@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import "../global.css";
 
 export const metadata = {
@@ -44,7 +43,7 @@ export default function ResumePage() {
                                         />
                                     </div>
                                     <h1 className="text-2xl font-bold text-center text-gray-800">Stoil Stoychev</h1>
-                                    <p className="text-lg font-medium text-center mt-1 text-indigo-500">I build Custom Marketing Websites with AI for a $1,000 Flat Fee</p>
+                                    <p className="text-lg font-medium text-center mt-1 text-indigo-500">Frontend Software Engineer</p>
                                     <p className="text-gray-500 mt-1 text-center">United Kingdom</p>
 
                                     <div className="w-1/3 h-0.5 bg-gradient-to-r from-transparent via-indigo-200 to-transparent mt-4"></div>
@@ -57,7 +56,9 @@ export default function ResumePage() {
                                         <span>Summary</span>
                                         <span className="ml-auto w-6 h-0.5 bg-gradient-to-r from-indigo-200 to-transparent"></span>
                                     </h2>
-                                    <p className="text-gray-700 relative z-10">Software Engineer building Syncgrip.com (two-way data syncing between your SaaS apps) and QaJobs.co (the premier job board for QA and Test Automation pros)</p>
+                                    <p className="text-gray-700 relative z-10">
+                                        Hi, I'm Stoil, a Software Engineer with broad experience across the entire development lifecycle, working with both startups and large enterprises.
+                                    </p>
                                 </div>
 
                                 {/* Top Skills Section - Moved here */}
@@ -68,9 +69,15 @@ export default function ResumePage() {
                                         <span className="ml-auto w-6 h-0.5 bg-gradient-to-r from-indigo-200 to-transparent"></span>
                                     </h2>
                                     <div className="flex flex-wrap gap-2 relative z-10">
-                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Next.js</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">JavaScript</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">TypeScript</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">React</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Node.js</span>
-                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">SQLite</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Next.js</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Vite</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Express</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Playwright</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Tailwind</span>
                                     </div>
                                 </div>
 
@@ -100,19 +107,11 @@ export default function ResumePage() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.qajobs.co" className="text-indigo-500 hover:underline flex items-center gap-2">
-                                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                                    <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd"></path>
+                                            <a href="https://github.com/stoilsky" className="text-indigo-500 hover:underline flex items-center gap-2">
+                                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                                                 </svg>
-                                                QAJobs.co (Company)
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.syncgrip.com" className="text-indigo-500 hover:underline flex items-center gap-2">
-                                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                                                    <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd"></path>
-                                                </svg>
-                                                SyncGrip.com (Company)
+                                                GitHub
                                             </a>
                                         </li>
                                     </ul>
@@ -178,50 +177,71 @@ export default function ResumePage() {
                                 </h2>
                                 <div className="space-y-6">
                                     <div className="border-l-2 border-indigo-500 pl-4 relative">
-                                        <h3 className="font-bold">Syncgrip</h3>
+                                        <h3 className="font-bold">Syncgrip.com</h3>
                                         <p className="text-gray-600 text-sm">Co-Founder</p>
-                                        <p className="text-gray-500 text-sm">March 2024 - Present (1 year 1 month)</p>
-                                        <p className="mt-2">Sync your data between Airtable, Asana, Mailchimp and more — no coding required</p>
+                                        <p className="text-gray-500 text-sm">Apil 2024 - Present (1 year 1 month)</p>
+                                        <p className="mt-2">
+                                            Syncgrip is a bootstrapped SaaS we built together with a partner.
+                                            <br/><br/>
+                                            Syncgrip synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
+                                            allowing you to avoid data-silos and have a single source of truth.
+                                            <br/><br/>
+                                            The tagline is "Manage your apps straight from Airtable"
+                                            <br/><br/>
+                                            Moving data between services in real-time involves a lot of moving parts. Syncgrip needs
+                                            to register webhooks and receive their events. It has to process events consistently and scale to
+                                            handle thousands of events. It needs to handle a plethora of different APIs and their quirks and limitations.
+                                            <br/><br/>
+                                            In short:
+                                        </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Next.js</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">TypeScript</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Tailwind CSS</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Supabase</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Node.js</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">AWS SQS</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">AWS Lambda</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Drizzle</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Turso</span>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="border-l-2 border-indigo-500 pl-4 relative">
-                                        <h3 className="font-bold">QAJobs.co</h3>
-                                        <p className="text-gray-600 text-sm">Co-Founder</p>
-                                        <p className="text-gray-500 text-sm">January 2024 - Present (1 year 3 months)</p>
-                                        <p className="mt-2">The premier job board for Quality Assurance, SDET, and all other Test Automation Engineer opportunities</p>
-                                        <div className="mt-3">
-                                            <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
-                                            <div className="flex flex-wrap gap-1 mt-1">
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">React</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Node.js</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">PostgreSQL</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">AWS</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="border-l-2 border-indigo-500 pl-4 relative">
                                         <h3 className="font-bold">Lune</h3>
                                         <p className="text-gray-600 text-sm">Software Engineer</p>
                                         <p className="text-gray-500 text-sm">May 2021 - February 2024 (2 years 10 months)</p>
                                         <p className="text-gray-500 text-sm">London, United Kingdom</p>
-                                        <p className="mt-2">Making every product and service climate positive by default</p>
+                                        <p className="mt-2">
+                                            Lune.co provides businesses with tools and an API to measure, manage, and offset their carbon footprint.
+                                            <br/>
+                                            <br/>
+                                            I joined as a Founding Engineer on a mission to build out their client-side Dashboard and Marketing Website.
+                                            <br/><br/>
+                                            In my first year, I created the initial versions of the Website and the Dashboard from
+                                            scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively. Eventually I also
+                                            contributed on the backend, working with Node.js, Express and PostgreSQL.
+                                        <br/><br/>
+                                            The website was eventually migrated to Next.js and the Dashboard to Vite.
+                                            <br/><br/>
+                                            I was involved in hiring, helping to grow the team and ramp up new hires.
+                                        </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">TypeScript</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">React</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">GraphQL</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">REST APIs</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">PostgreSQL</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Node.js</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Express</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Vite</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Gatsby</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Next.js</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Storybook</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">CSS-in-JS</span>
                                             </div>
                                         </div>
                                     </div>
@@ -231,11 +251,24 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Front-End Software Engineer</p>
                                         <p className="text-gray-500 text-sm">January 2017 - May 2021 (4 years 5 months)</p>
                                         <p className="text-gray-500 text-sm">London, England, United Kingdom</p>
-                                        <p className="mt-2">Tray.io is ushering in the era of the automated organization. We believe that any organization can and should automate. With Tray.io, citizen automators throughout organizations can easily automate complex processes through a powerful, flexible platform, and can connect their entire cloud stack thanks to APIs.</p>
+                                        <p className="mt-2">I joined Tray.io in London as employee #12.
+                                            <br/><br/>
+                                            Originally hired
+                                        as a Test Engineer, I quickly shifted gears into a Frontend Engineer position.
+                                        Tray.io (now Tray.ai) is a low-code automation platform (iPaaS) with a React-based
+                                        frontend and a Scala backend. Think Zapier but more for the Enterprise.
+                                            <br/><br/>
+                                            I worked on many different parts of their client-side
+                                        dashboard including to flesh out Enterprise features like User Roles, Permissions etc
+                                        as well as the Marketing Website.
+                                            <br/><br/>
+                                            I was also involved with the hiring process, interviewing and mentoring junior engineers.
+                                        </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">JavaScript</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">TypeScript</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">React</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Redux</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">CSS-in-JS</span>
@@ -246,18 +279,22 @@ export default function ResumePage() {
                                     
                                     <div className="border-l-2 border-indigo-500 pl-4 relative">
                                         <h3 className="font-bold">Self-Employed</h3>
-                                        <p className="text-gray-600 text-sm">Freelance Automation and Front End Developer</p>
+                                        <p className="text-gray-600 text-sm">Test Automation Consultant</p>
                                         <p className="text-gray-500 text-sm">May 2015 - January 2017 (1 year 9 months)</p>
                                         <p className="text-gray-500 text-sm">Sofia, Bulgaria</p>
-                                        <p className="mt-2">As a freelance developer and consultant I focus on web development and test automation. I help teams and individuals succeed with things as simple as building a portfolio website or as complex as designing the architecture of a test automation framework.</p>
+                                        <p className="mt-2">
+                                            A stint as a freelance consultant for companies looking to improve
+                                            their test automation strategy and bring automation to a previously
+                                            fully-manual testing processes. I was an official partner to my first employer, Telerik (now Progress),
+                                            and worked with companies in the UK and US, mostly on integrating Telerik Test Studio (an automation tool)
+                                            into existing QA teams.
+                                        </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">JavaScript</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">React</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">C#</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Telerik Test Studio</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Selenium</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">CSS</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">HTML</span>
                                             </div>
                                         </div>
                                     </div>
@@ -267,14 +304,21 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Software Development Engineer In Test</p>
                                         <p className="text-gray-500 text-sm">May 2014 - July 2015 (1 year 3 months)</p>
                                         <p className="text-gray-500 text-sm">Sofia</p>
-                                        <p className="mt-2">My responsibility is to assure that each DynamicAction release lives up to the company's high quality standards. DynamicAction is an AngularJS/NodeJS-based business intelligence web app. I take part in designing and expanding the extensive, Selenium-based automation suite that assures the stability of the application.</p>
+                                        <p className="mt-2">  This was my first purely technical role. <br/><br/>
+                                            DynamicAction is an
+                                            AngularJS/NodeJS-based business intelligence web app. I worked on
+                                            designing and expanding the extensive, Selenium-based automation suite
+                                            that allowed the devs to make changes with confidence. I
+                                            worked assure each DynamicAction release lived up to the company's quality
+                                            standards.
+                                            </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Java</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Selenium</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">TestNG</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">JavaScript</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Selenium</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Jasmine</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">WebStorm</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">AngularJS</span>
                                             </div>
                                         </div>
@@ -282,7 +326,19 @@ export default function ResumePage() {
                                     
                                     <div className="border-l-2 border-indigo-500 pl-4 relative">
                                         <h3 className="font-bold">Telerik</h3>
+                                        <p className="text-gray-600 text-sm">Sales Engineer</p>
+                                    <p className="text-gray-500 text-sm">Jan 2011 - March 2014 (3 years 7 months)</p>
                                         <p className="text-gray-600 text-sm">3 years 5 months</p>
+                                        <p className="mt-2">
+                                            As a Sales Engineer I had a working knowledge of the
+                                            entire stack of products offered by my company Telerik. I analyzed and responded to
+                                            technical queries by customers and prepared sample projects to serve as
+                                            POC for prospective/existing customers.
+                                            <br/><br/>
+                                            I worked closely with the sales team identify
+                                            requirements and how they can be addressed. I
+                                            technical training sessions for the sales team and customers.
+                                        </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
                                             <div className="flex flex-wrap gap-1 mt-1">
@@ -290,36 +346,6 @@ export default function ResumePage() {
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">.NET</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">JavaScript</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">WPF</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div className="mt-3 pl-3 border-l border-indigo-200 relative">
-                                            <h4 className="font-semibold">Sales engineer</h4>
-                                            <p className="text-gray-500 text-sm">January 2012 - March 2014 (2 years 3 months)</p>
-                                            <p className="text-gray-500 text-sm">Sofia</p>
-                                            <p className="mt-1">As a Sales Engineer I was expected to have a working knowledge of the entire stack of products offered by my company. I analyzed and responded to technical queries by our customers and prepared sample projects to serve as POC for prospective/existing customers.</p>
-                                            <p className="mt-1">I worked closely with the sales team in order to identify each customer's requirements and how they can be addressed. Additionally I led some basic technical training sessions for the sales team.</p>
-                                        </div>
-                                        
-                                        <div className="mt-3 pl-3 border-l border-indigo-200 relative">
-                                            <h4 className="font-semibold">Technical Support Engineer - web-based UI automation</h4>
-                                            <p className="text-gray-500 text-sm">November 2010 - January 2012 (1 year 3 months)</p>
-                                            <p className="mt-1">As a support engineer for the Test Studio product I worked closely with our customers in order to resolve their complex test automation challenges. I contributed to the documentation and roadmap planning for the product. Additionally I led training sessions (including onsite) for existing and prospective customers.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="border-l-2 border-indigo-500 pl-4 relative">
-                                        <h3 className="font-bold">SAP</h3>
-                                        <p className="text-gray-600 text-sm">Intern</p>
-                                        <p className="text-gray-500 text-sm">July 2009 - October 2010 (1 year 4 months)</p>
-                                        <p className="mt-2">Develop internal tools around unit test reports</p>
-                                        <div className="mt-3">
-                                            <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
-                                            <div className="flex flex-wrap gap-1 mt-1">
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Java</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">JUnit</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">XML</span>
-                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Eclipse</span>
                                             </div>
                                         </div>
                                     </div>
