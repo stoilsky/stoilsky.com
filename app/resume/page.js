@@ -181,18 +181,16 @@ export default function ResumePage() {
                                         <p className="text-gray-600 text-sm">Co-Founder</p>
                                         <p className="text-gray-500 text-sm">Apil 2024 - Present (1 year 1 month)</p>
                                         <p className="mt-2">
-                                            Syncgrip is a bootstrapped SaaS we built together with a partner.
-                                            <br/><br/>
-                                            Syncgrip synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
+                                            Syncgrip is a bootstrapped SaaS we built together with a partner. It
+                                            synchronizes the data between different SaaS tools like Airtable, Asana and Mailchimp,
                                             allowing you to avoid data-silos and have a single source of truth.
                                             <br/><br/>
                                             The tagline is "Manage your apps straight from Airtable"
                                             <br/><br/>
-                                            Moving data between services in real-time involves a lot of moving parts. Syncgrip needs
-                                            to register webhooks and receive their events. It has to process events consistently and scale to
-                                            handle thousands of events. It needs to handle a plethora of different APIs and their quirks and limitations.
-                                            <br/><br/>
-                                            In short:
+                                            Moving data between services in real-time is hard and
+                                            this project required complicated engineer along with marketing, sales and support
+                                            all of which we have been doing ourselves. It has been a crazy and rewarding
+                                            experience.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
