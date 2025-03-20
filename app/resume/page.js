@@ -192,7 +192,7 @@ export default function ResumePage() {
                                             - synchronization of data between different SaaS tools like Airtable, Asana and Mailchimp,
                                             allowing you to avoid data-silos and have a single source of truth<br/>
                                             - A complex distributed system capable of ingesting thousand of events in real time<br/>
-                                            - NextJS Dashboard allows for configuring the syncs, monitoring the status and troubleshooting<br/>
+                                            - NextJS Dashboard with SSR, Tailwind, TanStackQuery, Forms<br/>
                                             - Backend is an Amazon Queue Service (SQS) that triggers AWS Lambdas to process the data <br/>
                                             - As a co-founder also performed marketing, sales and support <br/>
                                         </p>
@@ -223,6 +223,7 @@ export default function ResumePage() {
                                             <br/>
                                             - created the initial versions of the Website and the Dashboard from
                                             scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively.  <br/>
+                                            - setup a Design System with Storybook and Material UI <br/>
                                             - contributed on the backend, working with Node.js, Express and PostgreSQL
                                         <br/>
                                             - planned and led implementation of complex features across the entire stack (e.g. Carbon Offset Calculator) <br/>
