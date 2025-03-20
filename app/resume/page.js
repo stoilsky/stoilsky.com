@@ -74,10 +74,14 @@ export default function ResumePage() {
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">React</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Node.js</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Next.js</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">State Management</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Vite</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Express</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Playwright</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Jest</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">React Testing Library</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Tailwind</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">CSS</span>
                                     </div>
                                 </div>
 
