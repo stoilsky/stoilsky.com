@@ -184,8 +184,10 @@ export default function ResumePage() {
                                             - Syncgrip is bootstrapped SaaS we built together with a partner <br/>
                                             - synchronization of data between different SaaS tools like Airtable, Asana and Mailchimp,
                                             allowing you to avoid data-silos and have a single source of truth<br/>
-                                            - complex engineering project to designing and build a distributed system capable of ingesting thousand of events in real time<br/>
-                                            - performed marketing, sales and support <br/>
+                                            - A complex distributed system capable of ingesting thousand of events in real time<br/>
+                                            - NextJS Dashboard allows for configuring the syncs, monitoring the status and troubleshooting<br/>
+                                            - Backend is an Amazon Queue Service (SQS) that triggers AWS Lambdas to process the data <br/>
+                                            - As a co-founder also performed marketing, sales and support <br/>
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -204,7 +206,7 @@ export default function ResumePage() {
 
                                     <div className="border-l-2 border-indigo-500 pl-4 relative">
                                         <h3 className="font-bold">Lune</h3>
-                                        <p className="text-gray-600 text-sm">Software Engineer</p>
+                                        <p className="text-gray-600 text-sm">Senior Software Engineer</p>
                                         <p className="text-gray-500 text-sm">May 2021 - February 2024 (2 years 10 months)</p>
                                         <p className="text-gray-500 text-sm">London, United Kingdom</p>
                                         <p className="mt-2">
@@ -216,8 +218,8 @@ export default function ResumePage() {
                                             scratch using Gatsby and Create-React-App with TypeScript, React, TanStack Query respectively.  <br/>
                                             - contributed on the backend, working with Node.js, Express and PostgreSQL
                                         <br/>
-                                            - migrated Marketing Website from Gatsby to Next.js
-                                            <br/>
+                                            - planned and led implementation of complex features across the entire stack (e.g. Carbon Offset Calculator) <br/>
+                                            - migrated Marketing Website from Gatsby to Next.js <br/>
                                             - involved in hiring, helping to grow the team and ramp up new hires.
                                         </p>
                                         <div className="mt-3">
@@ -256,7 +258,10 @@ export default function ResumePage() {
                                         dashboard including to Enterprise features like User Roles, Permissions etc
                                         as well as the Marketing Website.
                                             <br/>
-                                             - involved with the hiring process, interviewing and mentoring junior engineers.
+                                            - Worked extensively with React and NodeJS <br/>
+                                            - Wrote extensive component tests with Jest and React Testing Library <br/>
+                                            - Designed and implemented architecture of new features (e.g. client-side permissions, interactive logs) <br/>
+                                            - involved with the hiring process, interviewing and mentoring junior engineers.
                                         </p>
                                         <div className="mt-3">
                                             <p className="text-sm font-medium text-gray-700">Tech Stack:</p>
@@ -267,6 +272,7 @@ export default function ResumePage() {
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Redux</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">CSS-in-JS</span>
                                                 <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">GraphQL</span>
+                                                <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 rounded text-xs">Apollo Client</span>
                                             </div>
                                         </div>
                                     </div>
