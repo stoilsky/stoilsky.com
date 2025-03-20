@@ -80,8 +80,11 @@ export default function ResumePage() {
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Playwright</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Jest</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">React Testing Library</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">ES6</span>
                                         <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">Tailwind</span>
-                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">CSS</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">CSS-in-JS</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">CSS3</span>
+                                        <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-sm shadow-sm hover:shadow-md transition-shadow">HTML5</span>
                                     </div>
                                 </div>
 
